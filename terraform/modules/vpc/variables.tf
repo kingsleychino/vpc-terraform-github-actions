@@ -6,7 +6,7 @@ variable "vpc_cidr" {
 
 variable "subnet_cidr" {
   description = "Subnet CIDR"
-  type        = list(string)
+  type        = string
 }
 
 variable "subnet_names" {
